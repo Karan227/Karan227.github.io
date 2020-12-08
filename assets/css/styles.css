@@ -1,13 +1,12 @@
-/*===== GOOGLE FONTS =====*/
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
 
-/*===== VARIABLES CSS =====*/
+
 :root{
     --header-height: 3rem;
     --font-medium: 500;
 }
 
-/*===== Colores =====*/
 :root{
     --first-color: #00cc7a;
     --white-color: #FAFAFF;
@@ -15,7 +14,7 @@
     --text-color: #697477;
 }
 
-/*===== Fuente y tipografia =====*/
+
 :root{
     --body-font: 'Montserrat', sans-serif;
     --big-font-size: 6.25rem;
@@ -32,7 +31,7 @@
     }
 }
 
-/*===== Margenes =====*/
+
 :root{
     --mb-1: .5rem;
     --mb-2: 1rem;
@@ -40,12 +39,11 @@
     --mb-4: 2rem;
 }
 
-/*===== z index =====*/
+
 :root{
     --z-fixed: 100;
 }
 
-/*===== BASE =====*/
 *,::before,::after{
     box-sizing: border-box;
 }
@@ -78,7 +76,7 @@ img{
     display: block;
 }
 
-/*===== CLASS CSS ===== */
+
 .section{
     padding: 3rem 0;
 }
@@ -101,7 +99,7 @@ img{
     background-color: var(--first-color);
 }
 
-/*===== LAYOUT =====*/
+
 .bd-grid{
     max-width: 1024px;
     display: grid;
@@ -120,7 +118,7 @@ img{
     background-color: var(--first-color);
 }
 
-/*===== NAV =====*/
+
 .nav{
     height: var(--header-height);
     display: flex;
@@ -159,12 +157,12 @@ img{
     cursor: pointer;
 }
 
-/*=== Show menu ===*/
+
 .show{
     right: 0;
 }
 
-/*Active menu*/
+
 .active::after{
     position: absolute;
     content: "";
@@ -175,7 +173,7 @@ img{
     background-color: var(--first-color);
 }
 
-/*===== HOME =====*/
+
 .home{
     position: relative;
     background-color: var(--first-color);
@@ -210,7 +208,7 @@ img{
     width: 295px;
 }
 
-/* ===== ABOUT =====*/
+
 .about__container{
     justify-items: center;
     row-gap: 2rem;
@@ -249,7 +247,7 @@ img{
     color: var(--first-color);
 }
 
-/* ===== SKILLS =====*/
+
 .skills__container{
     row-gap: 2rem;
 }
@@ -274,7 +272,7 @@ img{
     border-radius: .5rem;
 }
 
-/* ===== PORTFOLIO =====*/
+
 .portfolio{
     background-color: var(--white-color);
 }
@@ -310,7 +308,7 @@ img{
     color: var(--dark-color);
 }
 
-/* ===== CONTACT =====*/
+
 .contact__container{
     row-gap: 2rem;
 }
@@ -327,29 +325,10 @@ img{
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1rem;
 }
-.contact__input{
-    width: 100%;
-    padding: .8rem;
-    outline: none;
-    border: 1.5px solid var(--dark-color);
-    font-size: var(--normal-font-size);
-    margin-bottom: var(--mb-4);
-    border-radius: .5rem;
-}
-.contact__button{
-    display: block;
-    background-color: var(--first-color);
-    color: var(--white-color);
-    padding: .75rem 2.5rem;
-    margin-left: auto;
-    border-radius: .5rem;
-    border: none;
-    outline: none;
-    font-size: var(--normal-font-size);
-    cursor: pointer;
-}
 
-/* ===== FOOTER=====*/
+
+
+
 .footer{
     background-color: var(--dark-color);
 }
@@ -393,7 +372,6 @@ img{
   color:white;
 }
 
-/* ===== MEDIA QUERIES =====*/
 @media screen and (min-width: 768px){
     body{
         margin: 0;
