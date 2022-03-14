@@ -1,3 +1,3 @@
 # Portfolio
 
-<a href="https://webdevkaran.me/" target="_blank">Link</a>
+<a href="https://webdevkaran.codes/" target="_blank">Link</a>
